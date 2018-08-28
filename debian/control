@@ -1,4 +1,6 @@
 Source: imx-atf
+Section: misc
+Priority: optional
 Maintainer: AIY Projects <support-aiyprojects@google.com>
 Build-Depends: debhelper
 

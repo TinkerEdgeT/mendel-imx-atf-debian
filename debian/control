@@ -2,10 +2,10 @@ Source: imx-atf
 Section: misc
 Priority: optional
 Maintainer: AIY Projects <support-aiyprojects@google.com>
-Build-Depends: debhelper
+Build-Depends: debhelper, gcc-aarch64-linux-gnu
 
 Package: imx-atf
 Section: misc
 Priority: required
-Architecture: arm64
+Architecture: arm64 armhf
 Description: Arm Trusted Framework for IMX platform

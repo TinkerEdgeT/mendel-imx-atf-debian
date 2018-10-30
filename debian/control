@@ -6,6 +6,6 @@ Build-Depends: debhelper, gcc-aarch64-linux-gnu
 
 Package: imx-atf
 Section: misc
-Priority: required
+Priority: optional
 Architecture: arm64 armhf
 Description: Arm Trusted Framework for IMX platform

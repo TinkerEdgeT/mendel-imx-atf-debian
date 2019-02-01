@@ -9,3 +9,4 @@ Section: misc
 Priority: optional
 Architecture: arm64 armhf
 Description: Arm Trusted Framework for IMX platform
+ This contains the Arm Trusted Framework for the NXP i.MX platform.

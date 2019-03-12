@@ -1,7 +1,7 @@
 Source: imx-atf
 Section: misc
 Priority: optional
-Maintainer: AIY Projects <coral-support@google.com>
+Maintainer: Coral <coral-support@google.com>
 Build-Depends: debhelper, gcc-aarch64-linux-gnu
 
 Package: imx-atf

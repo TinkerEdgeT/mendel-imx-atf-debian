@@ -1,7 +1,13 @@
+imx-atf (2-1) mendel-chef; urgency=medium
+
+  * Cut for chef release
+
+ -- Coral <coral-support@google.com>  Tue, 19 Mar 2019 17:08:25 -0700
+
 imx-atf (1-1) mendel-beaker; urgency=medium
 
   * Cut for beaker release and normalization of version.
-  
+
  -- Coral <coral-support@google.com>  Wed, 16 Jan 2019 12:00:00 -0800
 
 imx-atf (0.1) UNRELEASED; urgency=medium

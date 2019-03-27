@@ -1,3 +1,9 @@
+imx-atf (2-2) mendel-chef; urgency=medium
+
+  * Add support for IMX8MQ 2.1 silicon.
+
+ -- Coral <coral-support@google.com> Wed, 27 Mar 2019 16:11:50 -0700
+
 imx-atf (2-1) mendel-chef; urgency=medium
 
   * Cut for chef release

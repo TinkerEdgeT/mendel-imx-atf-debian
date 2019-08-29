@@ -15,12 +15,8 @@ override_dh_auto_clean:
 
 override_dh_auto_build:
 	make LDFLAGS= CFLAGS= CROSS_COMPILE=aarch64-linux-gnu- PLAT=imx8mq bl31
-	make LDFLAGS= CFLAGS= CROSS_COMPILE=aarch64-linux-gnu- PLAT=imx8mm bl31
 
 override_dh_auto_install:
 	dh_auto_install
 	install -d $(DESTDIR)/usr/share/imx-atf
-	install -d $(DESTDIR)/usr/share/imx-atf/imx8mq
-	install -d $(DESTDIR)/usr/share/imx-atf/imx8mm
-	install -m 644 -o 0 -g 0 build/imx8mq/release/bl31.bin $(DESTDIR)/usr/share/imx-atf/imx8mq/bl31.bin
-	install -m 644 -o 0 -g 0 build/imx8mm/release/bl31.bin $(DESTDIR)/usr/share/imx-atf/imx8mm/bl31.bin
+	install -m 644 -o 0 -g 0 build/imx8mq/release/bl31.bin $(DESTDIR)/usr/share/imx-atf/bl31.bin

@@ -1,3 +1,9 @@
+imx-atf (4-1) mendel-day; urgency=medium
+
+  * Bump to update to the new upstream branch.
+
+ -- Coral <coral-support@google.com>  Tue, 10 Oct 2019 15:10:10 -0500
+
 imx-atf (3-1) mendel-day; urgency=medium
 
   * Cut for day release.
